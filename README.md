@@ -1,7 +1,7 @@
 # Comparative Analysis of Machine Learning Models for Telco Customer Churn Prediction
 
 ---
-
+data: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 ## Introduction
 This report evaluates the performance of eight machine learning models applied to the Telco Customer Churn dataset, a binary classification problem predicting whether a customer will churn ("Yes" or "No"). The models assessed include **Neural Network**, **K-Nearest Neighbors (KNN)**, **Naive Bayes**, **CatBoost**, **Random Forest**, **LightGBM**, **XGBoost**, **Support Vector Machine (SVM)**, and **Logistic Regression**. Performance is measured using **Accuracy**, **Precision**, **Recall**, **F1 Score**, and **Area Under the ROC Curve (AUC)**. Given the dataset's class imbalance (positive class weight ~2.76738), metrics like AUC, Recall, and F1 are critical for evaluating performance on the minority class ("Yes").
 
